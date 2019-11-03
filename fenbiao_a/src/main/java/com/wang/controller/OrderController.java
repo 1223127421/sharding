@@ -13,8 +13,13 @@ public class OrderController {
     OrderDao orderDao;
 
     @RequestMapping("/insertOrder")
-    public String a() {
+    public String insertOrder() {
         orderDao.insertOrder(new BigDecimal(123), 1l, "success");
         return "insertOrder";
+    }
+
+    @RequestMapping("/list")
+    public String list() {
+        return orderDao.list().toString();
     }
 }
