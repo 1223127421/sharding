@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fenbiao_a/fenbiao_a.iml" filepath="$PROJECT_DIR$/fenbiao_a/fenbiao_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenku_a/fenku_a.iml" filepath="$PROJECT_DIR$/fenku_a/fenku_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding.iml" filepath="$PROJECT_DIR$/sharding.iml" />
+    </modules>
+  </component>
+</project>
