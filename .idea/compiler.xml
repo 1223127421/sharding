@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="fenbiao_a" />
         <module name="fenku_a" />
+        <module name="read_write" />
         <module name="sharding" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fenbiao_a" target="1.8" />
       <module name="fenku_a" target="1.8" />
+      <module name="read_write" target="1.8" />
       <module name="sharding" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fenbiao_a" options="-parameters" />
       <module name="fenku_a" options="-parameters" />
+      <module name="read_write" options="-parameters" />
       <module name="sharding" options="-parameters" />
     </option>
   </component>

@@ -36,4 +36,15 @@ public class OrderController {
         userDao.insertUser("admin");
         return "insertUser";
     }
+
+    @RequestMapping("/insertDict")
+    public String insertDict() {
+        userDao.insertDict(1,"admin");
+        return "insertDict";
+    }
+
+    @RequestMapping("/listDict")
+    public String listDict() {
+        return  userDao.listDict().toString();
+    }
 }
